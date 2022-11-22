@@ -1,0 +1,24 @@
+body {
+    background-color: #141519;
+}
+
+.container {
+    padding: 5%;
+    background-color: blue;
+    position: absolute;
+    border-radius: 18px;
+    margin-top: 5%;
+    margin: 15%;
+    margin-left: 19%;
+    background-color: #1e252f;
+}
+ .grades{
+      margin: 5%;
+      text-align: center;
+      background-color: white;
+      border-radius: 50%;
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+      line-height: 50px;
+}
