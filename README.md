@@ -1,1 +1,1 @@
-# Componente-de-classificacao-interativa---Atalho.
+# Componente-de-classificacao-interativa
