@@ -13,7 +13,11 @@ body {
     margin-left: 30%;
 }
 
-#grades1, #grades2, #grades3, #grades4, #grades5 {
+#grades1,
+#grades2,
+#grades3,
+#grades4,
+#grades5 {
     margin: 3%;
     text-align: center;
     background-color: #29323b;
@@ -25,7 +29,11 @@ body {
     color: white;
 }
 
-.grades:hover {
+#grades1:hover,
+#grades2:hover,
+#grades3:hover,
+#grades4:hover,
+#grades5:hover {
     background-color: #fb7917;
 }
 
@@ -82,7 +90,11 @@ h1 {
         margin-left: 13%;
     }
 
-    .grades {
+    #grades1,
+    #grades2,
+    #grades3,
+    #grades4,
+    #grades5 {
         margin: 3%;
         text-align: center;
         background-color: #29323b;
@@ -93,11 +105,15 @@ h1 {
         line-height: 35px;
         color: white;
     }
-    
-    .grades:hover {
+
+    #grades1:hover,
+    #grades2:hover,
+    #grades3:hover,
+    #grades4:hover,
+    #grades5:hover {
         background-color: #fb7917;
     }
-    
+
     .buttonSubmit {
         width: 100px;
         position: relative;
@@ -107,14 +123,14 @@ h1 {
         background-color: #fb7917;
         color: white;
     }
-    
+
     p {
         margin-left: 30px;
         margin-right: 30px;
         text-align: justify;
         font-size: 19px;
     }
-    
+
     h1 {
         margin-left: 30px;
         margin-right: 30px;
@@ -122,18 +138,18 @@ h1 {
         font-size: 22px;
         font-weight: bold;
     }
-    
+
     .star {
         margin-top: 25px;
         margin-left: 30px;
         margin-right: 5px;
-        height: 40px;
-        width: 40px;
+        height: 45px;
+        width: 45px;
         border-radius: 50%;
-        line-height: 40px;
+        line-height: 45px;
         background-color: #29323b;
     }
-    
+
     .buttonSubmit:hover {
         background-color: white;
         color: #fb7917;
