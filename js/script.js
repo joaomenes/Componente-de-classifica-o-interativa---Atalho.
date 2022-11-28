@@ -7,15 +7,14 @@ const buttonSubmit = document.querySelector('.buttonSubmit');
 
 buttonSubmit.addEventListener('click', function () {
     
-    window.location.href = "./grades.html";
-    
+    if(grades1.value) return alert("necessário selecionar uma avaliação");
+    else{window.location.href = "./grades.html";}
 
 });
 
-grades1.onclick = (e) => {
+function clickNote1() {
     const note = document.querySelector("#grades1").value;
     localStorage.setItem('valueGrades1', note);
-
 }
 
 grades2.onclick = (e) => {
