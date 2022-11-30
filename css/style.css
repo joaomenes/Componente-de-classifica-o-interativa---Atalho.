@@ -1,46 +1,57 @@
-
 .container {
-    width: 28vw;
-    height: 42vh;    
-    background-color: #1d242e;
+
+    width: 32vw;
+    height: 42vh;
+    background-color: #1e252f;
     border-radius: 28px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 16%;
+    
 }
 
-.content{
-   position: absolute;
-   width: 28vw;
-   height: 35vh;   
+.containerEvaluation {
+    width: 34vw;
+    height: 42vh;
+    background-color: #1e252f;
+    border-radius: 28px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 16%;
+}
+
+.content {
+    position: absolute;
+    width: 32vw;
+    height: 41vh;
 }
 
 .star {
-    margin-top: 4%;
+    margin-top: 8%;
     margin-left: 20px;
     margin-right: 5px;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
-    line-height: 40px;
+    line-height: 54px;
     background-color: #29323b;
 }
 
-h1  {
-    margin-top: 2%;
+h1 {
+    margin-top: 6%;
     margin-left: 30px;
     margin-right: 30px;
-    text-align: justify;
+    text-align: center;
     font-size: 22px;
     font-weight: bold;
 }
 
 p {
-    margin: autoC;
+    margin-top: 7%;
     margin-left: 30px;
     margin-right: 30px;
     text-align: justify;
-    font-size: 16px;
+    font-size: 19px;
 }
 
 #grades1,
@@ -53,11 +64,12 @@ p {
     background-color: #29323b;
     border-radius: 50%;
     display: inline-block;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
     color: white;
     border: none;
+    margin-top: 6%;
 }
 
 #grades1:hover,
@@ -68,6 +80,13 @@ p {
     background-color: #fb7917;
 }
 
+#grades1:focus,
+#grades2:focus,
+#grades3:focus,
+#grades4:focus,
+#grades5:focus {
+    background-color: aqua;
+}
 
 .buttonSubmit:hover {
     background-color: white;
@@ -78,8 +97,35 @@ p {
     width: 100px;
     position: relative;
     border-radius: 30px;
-    width: 303px;
+    width: 320px;
     height: 35px;
     background-color: #fb7917;
     color: white;
+    margin-top: 4%;
+    font-size: 16px;
+}
+
+.contentThank {
+    position: absolute;
+    width: 32vw;
+    height: 41vh;
+    margin-top: 30px;
+}
+
+.imgebook {
+    margin: 0 auto;
+}
+
+.informationNote {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 17px;
+    background-color: #25333e;
+    border-radius: 40px;
+    height: 25px;
+    width: 200px;
+    line-height: 26px;
+    color: #fb7917;
 }
