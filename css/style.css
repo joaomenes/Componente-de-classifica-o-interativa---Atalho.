@@ -101,7 +101,7 @@ p {
 #grades3:hover,
 #grades4:hover,
 #grades5:hover {
-    background-color: #fb7917;
+    background-color: #7f8897;
 }
 
 #grades1:focus,
@@ -109,7 +109,7 @@ p {
 #grades3:focus,
 #grades4:focus,
 #grades5:focus {
-    background-color: aqua;
+    background-color: #7f8897;
 }
 
 .buttonSubmit:hover {
