@@ -26,15 +26,16 @@ body {
 
 .contentPage1 {
     position: absolute;
-    width: 28vw;
-    height: 43vh;
+    width: 380px;
+    height: 375px;
     margin: auto;
+    margin-top: 1%;
 }
 
 .contentPage2 {
     position: absolute;
-    width: 28vw;
-    height: 43vh;
+    width: 410px;
+    height: 350px;
     margin: auto;
     margin-top: 2%;
 }
