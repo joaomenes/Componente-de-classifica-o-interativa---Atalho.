@@ -31,19 +31,19 @@
         to help us improve our offering!</p>
 
 
-      <button id="grades1" value="1">1</button>
-      <button id="grades2" value="2">2</button>
-      <button id="grades3" value="3">3</button>
-      <button id="grades4" value="4">4</button>
-      <button id="grades5" value="5">5</button>
+      <button id="grades1" value="1" onclick="grades1click()">1</button>
+      <button id="grades2" value="2" onclick="grades2click()">2</button>
+      <button id="grades3" value="3" onclick="grades3click()">3</button>
+      <button id="grades4" value="4" onclick="grades4click()">4</button>
+      <button id="grades5" value="5" onclick="grades5click()">5</button>
 
-      <button class="buttonSubmit">SUBMIT</button>
+      <button class="buttonSubmit" disabled>SUBMIT</button>
     </div>
 
   </div>
-  
-    <div class="containerEvaluation" style="display:none;">
-      <div class="contentPage2">
+
+  <div class="containerEvaluation" style="display:none;">
+    <div class="contentPage2">
       <div class="imgebook"><svg width="162" height="108" xmlns="http://www.w3.org/2000/svg">
           <g fill="none">
             <path
@@ -118,11 +118,9 @@
         </svg> </div>
 
 
-      <p class="informationNote">You selected
-        <!-- Add rating here --> out of 5
-      </p>
+      <p class="informationNote"></p>
 
-      <h1 id="thankYou" style="color: white;">Thank you!</h1>
+      <h2 id="thankYou" style="color: white;">Thank you!</h2>
 
       <p style="color: white;">We appreciate you taking the time to give a rating. If you ever need more support,
         don’t hesitate to get in touch!</p>
